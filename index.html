@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Styles  -->
+  <link rel="stylesheet" href="css/scss/style.css">
+  <!-- Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <title>Тестовое задание</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Aside  -->
+    <aside class="explore">
+      <div class="explore__content">
+        <a href="/index.html" class="logo">T</a>
+        <h2 class="explore__heading">Explore</h2>
+        <nav class="explore__nav">
+          <ul class="explore__list">
+            <li class="explore__item"><a href="#"><span class="icon">⚡️</span> New In
+              </a></li>
+            <li class="explore__item"> <a href="#"><span class="icon">🧥</span> Clothing
+              </a></li>
+            <li class="explore__item"> <a href="#"><span class="icon">👞</span> Shoes
+              </a></li>
+            <li class="explore__item"> <a href="#"><span class="icon">👜</span> Accessories
+              </a></li>
+            <li class="explore__item">
+              <a href="#"><span class="icon">🤸‍♀️</span> Activewear</a>
+            </li>
+            <li class="explore__item"> <a href="#"><span class="icon">🎁</span> Gifts & Living
+              </a></li>
+            <li class="explore__item"> <a href="#"><span class="icon">💎</span> Inspiration
+              </a></li>
+          </ul>
+        </nav>
+        <button class="explore__help btn">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="23.5649" cy="24.0305" r="23.5649" fill="#F6F6F6" />
+            <path
+              d="M30.5621 26.7443C30.7093 26.4334 30.8373 26.1166 30.9468 25.7947H30.9187C32.8369 20.1564 28.8029 14.2305 22.8475 13.9419C22.8474 13.9416 22.8474 13.9413 22.8473 13.941C17.723 13.7046 13.4657 17.8131 13.4657 22.9077C13.4657 27.8534 17.4797 31.8771 22.4167 31.8843C23.7559 31.8825 25.0394 31.5938 26.2364 31.0253C30.9084 31.9502 30.544 31.8845 30.6513 31.8845C31.1369 31.8845 31.4996 31.4389 31.4048 30.9642L30.5621 26.7443Z"
+              fill="black" />
+          </svg>Help Center
+        </button>
+      </div>
+    </aside>
+    <header class="header">
+      <div class="header__search">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M17.8723 16.8116C19.1996 15.2436 20 13.2153 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C13.2153 20 15.2436 19.1996 16.8116 17.8723L19.4697 20.5303C19.7626 20.8232 20.2374 20.8232 20.5303 20.5303C20.8232 20.2374 20.8232 19.7626 20.5303 19.4697L17.8723 16.8116ZM18.5 11C18.5 15.1421 15.1421 18.5 11 18.5C6.85786 18.5 3.5 15.1421 3.5 11C3.5 6.85786 6.85786 3.5 11 3.5C15.1421 3.5 18.5 6.85786 18.5 11Z"
+            fill="black" />
+        </svg>
+        <input type="text" placeholder="Search">
+      </div>
+      <nav class="header__nav">
+        <a href="" class="header__link">products</a>
+        <a href="" class="header__link">story</a>
+        <a href="" class="header__link">manufacturing</a>
+        <a href="" class="header__link">packaging</a>
+      </nav>
+      <!-- <div class="header__account"> -->
+      <button class="header__basket-btn btn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M5.69865 7L10.0973 2.78467C11.161 1.7653 12.839 1.7653 13.9027 2.78467L18.3013 7H20.847C21.4555 7 21.923 7.53899 21.8369 8.14142L20.368 18.4243C20.1568 19.9022 18.8911 21 17.3981 21H6.6019C5.10895 21 3.84318 19.9022 3.63205 18.4243L2.16307 8.14142C2.07701 7.53899 2.54447 7 3.15302 7H5.69865ZM11.1351 3.86766C11.6186 3.4043 12.3814 3.4043 12.8649 3.86766L16.1334 7H7.86658L11.1351 3.86766ZM3.72952 8.5L5.11697 18.2121C5.22254 18.9511 5.85542 19.5 6.6019 19.5H17.3981C18.1446 19.5 18.7775 18.9511 18.883 18.2121L20.2705 8.5H3.72952Z"
+            fill="black" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8 11.25C8.41421 11.25 8.75 11.5858 8.75 12V16C8.75 16.4142 8.41421 16.75 8 16.75C7.58579 16.75 7.25 16.4142 7.25 16V12C7.25 11.5858 7.58579 11.25 8 11.25Z"
+            fill="black" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M12 11.25C12.4142 11.25 12.75 11.5858 12.75 12V16C12.75 16.4142 12.4142 16.75 12 16.75C11.5858 16.75 11.25 16.4142 11.25 16V12C11.25 11.5858 11.5858 11.25 12 11.25Z"
+            fill="black" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M16 11.25C16.4142 11.25 16.75 11.5858 16.75 12V16C16.75 16.4142 16.4142 16.75 16 16.75C15.5858 16.75 15.25 16.4142 15.25 16V12C15.25 11.5858 15.5858 11.25 16 11.25Z"
+            fill="black" />
+        </svg>
+
+
+      </button>
+      <button class="header__account-btn btn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M12 10.5C13.933 10.5 15.5 8.933 15.5 7C15.5 5.067 13.933 3.5 12 3.5C10.067 3.5 8.5 5.067 8.5 7C8.5 8.933 10.067 10.5 12 10.5ZM12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"
+            fill="black" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M9 15.75C6.65279 15.75 4.75 17.6528 4.75 20V21C4.75 21.4142 4.41421 21.75 4 21.75C3.58579 21.75 3.25 21.4142 3.25 21V20C3.25 16.8244 5.82436 14.25 9 14.25H15C18.1756 14.25 20.75 16.8244 20.75 20V21C20.75 21.4142 20.4142 21.75 20 21.75C19.5858 21.75 19.25 21.4142 19.25 21V20C19.25 17.6528 17.3472 15.75 15 15.75H9Z"
+            fill="black" />
+        </svg>
+
+      </button>
+      <!-- </div> -->
+    </header>
+    <section class="promo-box">
+      <div class="promo-box__item promo-1">
+        <p>GET UP TO 50% OFF</p>
+      </div>
+      <div class="promo-box__item promo-2">
+        <!-- <div class="promo-box__like">
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.48882 2.54238L8.19452 3.8761L6.89907 2.5412C5.75304 1.35634 3.96078 1.22359 2.80447 2.20878C1.41182 3.39777 1.33469 5.54565 2.58418 6.83788L8.19306 12.6294L13.8019 6.83788C15.0541 5.54569 14.9773 3.39759 13.5843 2.20859M7.53004 13.3822L1.86584 7.53358C0.220732 5.83285 0.317331 3.01685 2.15563 1.44785C3.716 0.118122 6.01866 0.314508 7.49559 1.72449C7.53701 1.76403 7.57777 1.80452 7.61786 1.84596L8.19452 2.44019L8.77119 1.84596C8.81131 1.80456 8.85211 1.7641 8.89356 1.7246C10.373 0.314519 12.673 0.118086 14.2334 1.44785C16.0717 3.01685 16.1683 5.83285 14.5203 7.53358L8.85608 13.3822C8.49017 13.7598 7.89594 13.7598 7.53004 13.3822ZM9.48882 2.54238C10.6383 1.35636 12.4284 1.22406 13.5843 2.20859Z"
+              fill="black" />
+          </svg>
+
+        </div> -->
+
+        <label for="promo2" class="promo-box__like">
+          <input type="checkbox" id="promo2">
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.48882 2.54238L8.19452 3.8761L6.89907 2.5412C5.75304 1.35634 3.96078 1.22359 2.80447 2.20878C1.41182 3.39777 1.33469 5.54565 2.58418 6.83788L8.19306 12.6294L13.8019 6.83788C15.0541 5.54569 14.9773 3.39759 13.5843 2.20859M7.53004 13.3822L1.86584 7.53358C0.220732 5.83285 0.317331 3.01685 2.15563 1.44785C3.716 0.118122 6.01866 0.314508 7.49559 1.72449C7.53701 1.76403 7.57777 1.80452 7.61786 1.84596L8.19452 2.44019L8.77119 1.84596C8.81131 1.80456 8.85211 1.7641 8.89356 1.7246C10.373 0.314519 12.673 0.118086 14.2334 1.44785C16.0717 3.01685 16.1683 5.83285 14.5203 7.53358L8.85608 13.3822C8.49017 13.7598 7.89594 13.7598 7.53004 13.3822ZM9.48882 2.54238C10.6383 1.35636 12.4284 1.22406 13.5843 2.20859Z"
+              fill="black" />
+          </svg>
+        </label>
+
+      </div>
+      <div class="promo-box__item promo-3">
+        <label for="promo3" class="promo-box__like">
+          <input type="checkbox" id="promo3">
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.48882 2.54238L8.19452 3.8761L6.89907 2.5412C5.75304 1.35634 3.96078 1.22359 2.80447 2.20878C1.41182 3.39777 1.33469 5.54565 2.58418 6.83788L8.19306 12.6294L13.8019 6.83788C15.0541 5.54569 14.9773 3.39759 13.5843 2.20859M7.53004 13.3822L1.86584 7.53358C0.220732 5.83285 0.317331 3.01685 2.15563 1.44785C3.716 0.118122 6.01866 0.314508 7.49559 1.72449C7.53701 1.76403 7.57777 1.80452 7.61786 1.84596L8.19452 2.44019L8.77119 1.84596C8.81131 1.80456 8.85211 1.7641 8.89356 1.7246C10.373 0.314519 12.673 0.118086 14.2334 1.44785C16.0717 3.01685 16.1683 5.83285 14.5203 7.53358L8.85608 13.3822C8.49017 13.7598 7.89594 13.7598 7.53004 13.3822ZM9.48882 2.54238C10.6383 1.35636 12.4284 1.22406 13.5843 2.20859Z"
+              fill="black" />
+          </svg>
+        </label>
+      </div>
+      <div class="promo-box__item promo-4"></div>
+      <div class="promo-box__item promo-5">
+        <label for="promo5" class="promo-box__like">
+          <input type="checkbox" id="promo5">
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.48882 2.54238L8.19452 3.8761L6.89907 2.5412C5.75304 1.35634 3.96078 1.22359 2.80447 2.20878C1.41182 3.39777 1.33469 5.54565 2.58418 6.83788L8.19306 12.6294L13.8019 6.83788C15.0541 5.54569 14.9773 3.39759 13.5843 2.20859M7.53004 13.3822L1.86584 7.53358C0.220732 5.83285 0.317331 3.01685 2.15563 1.44785C3.716 0.118122 6.01866 0.314508 7.49559 1.72449C7.53701 1.76403 7.57777 1.80452 7.61786 1.84596L8.19452 2.44019L8.77119 1.84596C8.81131 1.80456 8.85211 1.7641 8.89356 1.7246C10.373 0.314519 12.673 0.118086 14.2334 1.44785C16.0717 3.01685 16.1683 5.83285 14.5203 7.53358L8.85608 13.3822C8.49017 13.7598 7.89594 13.7598 7.53004 13.3822ZM9.48882 2.54238C10.6383 1.35636 12.4284 1.22406 13.5843 2.20859Z"
+              fill="black" />
+          </svg>
+        </label>
+      </div>
+      <div class="promo-box__item promo-6">
+        <label for="promo6" class="promo-box__like">
+          <input type="checkbox" id="promo6">
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M9.48882 2.54238L8.19452 3.8761L6.89907 2.5412C5.75304 1.35634 3.96078 1.22359 2.80447 2.20878C1.41182 3.39777 1.33469 5.54565 2.58418 6.83788L8.19306 12.6294L13.8019 6.83788C15.0541 5.54569 14.9773 3.39759 13.5843 2.20859M7.53004 13.3822L1.86584 7.53358C0.220732 5.83285 0.317331 3.01685 2.15563 1.44785C3.716 0.118122 6.01866 0.314508 7.49559 1.72449C7.53701 1.76403 7.57777 1.80452 7.61786 1.84596L8.19452 2.44019L8.77119 1.84596C8.81131 1.80456 8.85211 1.7641 8.89356 1.7246C10.373 0.314519 12.673 0.118086 14.2334 1.44785C16.0717 3.01685 16.1683 5.83285 14.5203 7.53358L8.85608 13.3822C8.49017 13.7598 7.89594 13.7598 7.53004 13.3822ZM9.48882 2.54238C10.6383 1.35636 12.4284 1.22406 13.5843 2.20859Z"
+              fill="black" />
+          </svg>
+        </label>
+      </div>
+      <div class="promo-box__item promo-7">
+        <div class="promo-box__text">
+          <h3>Trending & Hot</h3>
+          <p>A collection of most trending items.</p>
+        </div>
+      </div>
+      <div class="promo-box__item promo-8">
+        <div class="promo-box__text">
+          <h3>Buy it for the first time</h3>
+          <p>New in store. Try it before anyone else.</p>
+        </div>
+      </div>
+
+    </section>
+  </div>
+</body>
+
+</html>
